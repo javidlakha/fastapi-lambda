@@ -6,7 +6,7 @@ services:
     entrypoint: python
     command: api/main.py
     volumes:
-      - ./api:/api
+      - ./api:/var/task/api
     ports:
       - 8000:8000
     restart: on-failure

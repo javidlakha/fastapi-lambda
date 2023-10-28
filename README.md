@@ -24,7 +24,8 @@ yarn dev
 ```
 
 The development server will be running in a container that can be accessed at
-[http://localhost:8000/](http://localhost:8000/).
+[http://localhost:8000/](http://localhost:8000/). It supports hot reloading:
+changes made to the `api` directory will automatically be applied.
 
 ## Deployment
 
