@@ -5,4 +5,6 @@ RUN pip install -r /requirements.txt
 
 COPY api api
 
+ENV PYTHONPATH=/var/task
+
 CMD ["api.main.handler"]
